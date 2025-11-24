@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poltforium | Doston Muhiddino</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="global-background">
+      <div class="bg-gradient"></div>
+      <div class="bg-noise"></div>
+      <div class="bg-glow"></div>
+      <div class="bg-bubbles" aria-hidden="true"></div>
+    </div>
+
+    <div class="page">
+      <nav class="top-nav">
+        <div class="logo">Poltforium</div>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#workflow">Workflow</a>
+          <a href="#social">Social</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <a class="nav-cta" href="mailto:doston.muhiddino@example.com"
+          >Reach out</a
+        >
+      </nav>
+
+      <header class="hero">
+        <div class="hero-text">
+          <p class="hero-pill">Backend · Frontend · Systems</p>
+          <h1>
+            Hi, I’m <span>Doston Muhiddino</span>. I design cinematic product
+            moments and build resilient backends that keep them alive.
+          </h1>
+          <p class="lead">
+            Over the last 4+ years I’ve shipped multilingual SaaS dashboards,
+            live collaboration suites, and AI-powered creator tools for startups
+            and global teams.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">Browse projects</a>
+            <button class="btn ghost" id="play-intro">2-min intro</button>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <p class="label">Shipped</p>
+              <p class="value">32+</p>
+            </div>
+            <div>
+              <p class="label">Teams</p>
+              <p class="value">18</p>
+            </div>
+            <div>
+              <p class="label">Stack</p>
+              <p class="value">FE・BE</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-badge">
+            <p>Fullstack</p>
+            <strong>Designer / Engineer</strong>
+            <span>Realtime • Cloud • Motion</span>
+          </div>
+          <div class="hero-tiles">
+            <div class="tile floating" data-delay="0.2">
+              <p>React / Vue</p>
+              <h3>Motion UI</h3>
+            </div>
+            <div class="tile floating" data-delay="0.4">
+              <p>Node / Python</p>
+              <h3>API Architect</h3>
+            </div>
+            <div class="tile floating" data-delay="0.6">
+              <p>Figma → Prod</p>
+              <h3>Design Systems</h3>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section id="about" class="section reveal">
+          <div class="section-head">
+            <p class="section-kicker">About</p>
+            <h2>Strategic design with measurable engineering.</h2>
+          </div>
+          <div class="about-grid">
+            <p>
+              I merge experiential UI with fast, observable backends. Every build
+              is guided by motion cues, micro-interactions, performance budgets,
+              and shipping discipline so that the final product feels intentional
+              and trustworthy.
+            </p>
+            <ul>
+              <li>⚡ Realtime dashboards and event streams</li>
+              <li>🧠 AI/ML APIs with human-readable UX layers</li>
+              <li>🛠️ Design systems, tokens, component libraries</li>
+              <li>☁️ Cloud-native foundations, tracing, CI/CD</li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="skills" class="section reveal">
+          <div class="section-head">
+            <p class="section-kicker">Core stack</p>
+            <h2>Capabilities & focus areas</h2>
+          </div>
+          <div class="cards-grid">
+            <article class="card tilt">
+              <p class="eyebrow">Frontend</p>
+              <h3>Experiential UI</h3>
+              <p>
+                React, Next.js, Vue, Astro, Framer Motion, Web Animations, GSAP,
+                WebGL, Web Components.
+              </p>
+              <div class="tags">
+                <span>Design Tokens</span>
+                <span>PWA</span>
+                <span>SSR</span>
+              </div>
+            </article>
+            <article class="card tilt">
+              <p class="eyebrow">Backend</p>
+              <h3>System Craft</h3>
+              <p>
+                Node.js, NestJS, Django, FastAPI, PostgreSQL, Mongo, Redis,
+                gRPC, GraphQL, WebSocket infra.
+              </p>
+              <div class="tags">
+                <span>Observability</span>
+                <span>Scalable APIs</span>
+                <span>Workers</span>
+              </div>
+            </article>
+            <article class="card tilt">
+              <p class="eyebrow">Ops & Collaboration</p>
+              <h3>Ship Fast</h3>
+              <p>
+                Docker, Kubernetes, GitHub Actions, Vercel, AWS, monitoring,
+                experimentation va analytics.
+              </p>
+              <div class="tags">
+                <span>CI/CD</span>
+                <span>A/B Tests</span>
+                <span>Docs</span>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="projects" class="section reveal">
+          <div class="section-head">
+            <p class="section-kicker">Projects</p>
+            <h2>Selected builds and case studies.</h2>
+          </div>
+          <div class="projects-grid">
+            <article class="project-card">
+              <div class="project-top">
+                <p class="eyebrow">Realtime SaaS</p>
+                <span class="chip">ChronoBoard</span>
+              </div>
+              <h3>Live performance portal</h3>
+              <p>
+                Live KPI surfaces, sonic cues for incidents, and chatbot
+                triggers that help 40+ squads respond in under 120&nbsp;ms.
+              </p>
+              <ul>
+                <li>Event-driven backend</li>
+                <li>Framer Motion storytelling</li>
+                <li>Grafana alerts</li>
+              </ul>
+            </article>
+            <article class="project-card">
+              <div class="project-top">
+                <p class="eyebrow">Community Platform</p>
+                <span class="chip">GuildHub</span>
+              </div>
+              <h3>Modulli social qatlam</h3>
+              <p>
+                Modular community platform with tiered access, adaptive
+                onboarding, and mod-friendly content tools.
+              </p>
+              <ul>
+                <li>Design system + tokens</li>
+                <li>Edge-rendered content</li>
+                <li>Growth analytics</li>
+              </ul>
+            </article>
+            <article class="project-card">
+              <div class="project-top">
+                <p class="eyebrow">AI Experience</p>
+                <span class="chip">Mythic Studio</span>
+              </div>
+              <h3>Adaptive generative canvas</h3>
+              <p>
+                Generative storytelling studio with promptable scenes,
+                voice-to-motion timelines, and an expert editing lab.
+              </p>
+              <ul>
+                <li>WebGPU renderer</li>
+                <li>Multi-tenant API</li>
+                <li>RT Collaboration</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section id="workflow" class="section reveal">
+          <div class="section-head">
+            <p class="section-kicker">Workflow</p>
+            <h2>From concept to shipped release.</h2>
+          </div>
+          <div class="timeline">
+            <div class="timeline-step">
+              <span>1</span>
+              <div>
+                <h3>Discovery Sprint</h3>
+                <p>Product positioning, success metrics, risk map, timeline.</p>
+              </div>
+            </div>
+            <div class="timeline-step">
+              <span>2</span>
+              <div>
+                <h3>Design + Prototype</h3>
+                <p>High fidelity flows, motion lab, live component kit.</p>
+              </div>
+            </div>
+            <div class="timeline-step">
+              <span>3</span>
+              <div>
+                <h3>Build</h3>
+                <p>Clean code, automated tests, observability, preview deploys.</p>
+              </div>
+            </div>
+            <div class="timeline-step">
+              <span>4</span>
+              <div>
+                <h3>Optimize</h3>
+                <p>Metrics review, experiments, performance tuning, docs.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="social" class="section reveal">
+          <div class="section-head">
+            <p class="section-kicker">Content & Community</p>
+            <h2>Follow the build logs across the internet.</h2>
+          </div>
+          <div class="social-grid">
+            <a
+              class="social-card tilt"
+              href="https://github.com/dostonmuhiddino"
+              target="_blank"
+              rel="noopener"
+            >
+              <p class="eyebrow">Code</p>
+              <h3>GitHub</h3>
+              <p>Open-source experiments, boilerplates, and CLI helpers.</p>
+            </a>
+            <a
+              class="social-card tilt"
+              href="https://www.youtube.com/@dostonmuhiddino"
+              target="_blank"
+              rel="noopener"
+            >
+              <p class="eyebrow">Video</p>
+              <h3>YouTube</h3>
+              <p>Deep dives into motion systems, DX tips, and livestream recaps.</p>
+            </a>
+            <a
+              class="social-card tilt"
+              href="https://www.twitch.tv/dostonmuhiddino"
+              target="_blank"
+              rel="noopener"
+            >
+              <p class="eyebrow">Live</p>
+              <h3>Twitch</h3>
+              <p>Pair-building sessions, design critiques, and realtime Q&A.</p>
+            </a>
+            <a
+              class="social-card tilt"
+              href="https://www.reddit.com/user/dostonmuhiddino"
+              target="_blank"
+              rel="noopener"
+            >
+              <p class="eyebrow">Community</p>
+              <h3>Reddit</h3>
+              <p>Case studies, benchmarks, and AMA threads with devs/designers.</p>
+            </a>
+            <a
+              class="social-card tilt"
+              href="https://t.me/dostonmuhiddino"
+              target="_blank"
+              rel="noopener"
+            >
+              <p class="eyebrow">Updates</p>
+              <h3>Telegram</h3>
+              <p>Release notes and bite-sized tips, available in Uzbek + EN.</p>
+            </a>
+            <a
+              class="social-card tilt"
+              href="https://www.linkedin.com/in/dostonmuhiddino"
+              target="_blank"
+              rel="noopener"
+            >
+              <p class="eyebrow">Network</p>
+              <h3>LinkedIn</h3>
+              <p>Collaboration openings, leadership notes, hiring updates.</p>
+            </a>
+          </div>
+        </section>
+      </main>
+
+      <footer id="contact" class="footer reveal">
+        <div>
+          <p class="section-kicker">Contact</p>
+          <h2>Let’s co-create your next release.</h2>
+        </div>
+        <div class="contact-actions">
+          <a class="btn primary" href="mailto:doston.muhiddino@example.com"
+            >Email</a
+          >
+          <a class="btn ghost" href="https://cal.com/dostonmuhiddino/intro"
+            >Book a call</a
+          >
+          <a class="btn ghost" href="https://github.com/dostonmuhiddino"
+            >GitHub</a
+          >
+        </div>
+        <div class="footer-social">
+          <a href="https://www.youtube.com/@dostonmuhiddino" target="_blank"
+            >YouTube</a
+          >
+          <a href="https://www.twitch.tv/dostonmuhiddino" target="_blank"
+            >Twitch</a
+          >
+          <a href="https://www.reddit.com/user/dostonmuhiddino" target="_blank"
+            >Reddit</a
+          >
+          <a href="https://twitter.com/dostonmuhiddino" target="_blank"
+            >Twitter/X</a
+          >
+          <a href="https://t.me/dostonmuhiddino" target="_blank">Telegram</a>
+        </div>
+        <p class="footer-note">© 2025 Poltforium · Built by Doston Muhiddino.</p>
+      </footer>
+    </div>
+
+    <dialog id="intro-dialog">
+      <div class="dialog-content">
+        <button class="dialog-close" aria-label="Close intro">&times;</button>
+        <h3>Poltforium in 120 seconds</h3>
+        <p>
+          Poltforium is my lab where design, engineering, and product strategy
+          live together. I obsess over hand-offs, performance budgets, and the
+          moments users actually feel.
+        </p>
+        <ul>
+          <li>UI/UX, motion, systems design</li>
+          <li>Scalable backend + realtime infrastructure</li>
+          <li>AI + data-informed decision making</li>
+        </ul>
+      </div>
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
